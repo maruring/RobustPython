@@ -133,3 +133,15 @@ Python3.8で導入された辞書に異種データを格納しなければな�
 辞書を継承してメソッドをオーバライドしても、そのメソッドが辞書のその他のメソッドから呼び出されるという保証はない
 
 collections.UserDict, UserString, UserListを使うとよい
+
+## ABC
+
+collections.absのABCは、すべてのカスタムコレクション型の作成を目的とする
+
+よく分からないので飛ばす
+
+## まとめ
+
+- 組み込みメソッドをオーバーライドしようとするとPythonが予期しない振る舞いをするので注意が必要
+- リスト、辞書、文字列の一部を変更したい場合はcollections.UsrList, collections.UsrDict, collections.Stringを使用する
+- 他のコレクション型と同じインターフェースでより複雑な振る舞いをするクラスを書く必要があるなら、collections.abcを使用する
