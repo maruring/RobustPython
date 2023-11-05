@@ -506,3 +506,8 @@ Open-Closed Principle(OCP)はコードの拡張に対しては解放的、変更
 ポリシーとメカニズムの分離の優れた実例はPythonのloggingモジュールである  
 ポリシー: 何をどこに記録するかのアウトラインを示す  
 メカニズム: ログレベルの設定、ログのメッセージのフィルタリング、ログメッセージの書式設定などの仕組みを担う  
+### デコレータ
+デコレータを使用することで、関数本体に手を付けずに振る舞いを変更することができる  
+外部から振る舞いを変更することで関数自体のネスト深くなり過ぎることを防止できる  
+[単純なデコレータ](https://zenn.dev/ryo_kawamata/articles/learn_decorator_in_python)  
+[backoff](https://qiita.com/cheuora/items/7e0355b74b7a30bcaca9)  
